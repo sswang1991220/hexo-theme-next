@@ -97,7 +97,7 @@ creative_commons:
 scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -110,10 +110,10 @@ darkmode: true
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  #home: / || fa fa-home
+  home: / || fa fa-home
   #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
   #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -157,11 +157,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591897827788&di=d02aabd9fd548411337287c3b443419e&imgtype=0&src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20191101%2F23%2F1572622192-OcRVLodZxP.jpg
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -171,8 +171,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/sswang1991220 || fab fa-github
+  E-Mail: mailto:sswang@126.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -190,12 +190,12 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
-  title: Links
+  title: 友情链接
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  百度: http://www.baidu.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -736,7 +736,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -841,11 +841,11 @@ motion:
 # Dependencies: https://github.com/next-theme/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
 pace:
-  enable: false
+  enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
+  theme: big-counter
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/next-theme/theme-next-three
