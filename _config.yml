@@ -196,6 +196,7 @@ links_settings:
 
 links:
   百度: http://www.baidu.com
+  MarkDown语法: https://www.runoob.com/markdown/md-tutorial.html
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
