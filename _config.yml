@@ -610,14 +610,14 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appId: # Your leancloud application appid
-  appKey: # Your leancloud application appkey
+  enable: true
+  appId: gHEasPfPbDHxAd8Euow48XCF-gzGzoHsz  # Your leancloud application appid
+  appKey: l6gJo4chLz3Klck5guxCd0t4 # Your leancloud application appkey
   placeholder: Just go go # Comment box placeholder
   avatar: mm # Gravatar style
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
+  language: zh-cn # Language, available values: en, zh-cn
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
