@@ -157,7 +157,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591897827788&di=d02aabd9fd548411337287c3b443419e&imgtype=0&src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20191101%2F23%2F1572622192-OcRVLodZxP.jpg
+  url: /images/warrior.jpeg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
