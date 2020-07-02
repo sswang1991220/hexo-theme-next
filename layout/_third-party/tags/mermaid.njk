@@ -3,6 +3,7 @@
 <script{{ pjax }}>
 if (document.querySelectorAll('pre.mermaid').length) {
   NexT.utils.getScript('{{ mermaid_uri }}', () => {
+    debugger;
     mermaid.initialize({
       theme    : '{{ theme.mermaid.theme }}',
       logLevel : 3,
